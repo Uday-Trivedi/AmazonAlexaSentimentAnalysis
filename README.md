@@ -4,17 +4,16 @@ This project performs sentiment analysis on customer reviews of Amazon Alexa usi
 
 ---
 
-## 📁 Project Structure
+AmazonAlexaSentimentAnalysis:
+  Dataset:
+    - amazon_alexa.tsv  # Raw dataset file
+  Models:
+    - countVectorizer.pkl  # Saved CountVectorizer
+    - scaler.pkl           # Saved MinMaxScaler
+  - SentimentAnalysis.ipynb  # Main notebook with all code
+  - README.md                # Project description
+  - LICENSE                  # MIT License file
 
-AmazonAlexaSentimentAnalysis/
-├── Dataset/
-│ └── amazon_alexa.tsv # Raw dataset file
-├── Models/
-│ ├── countVectorizer.pkl # Saved CountVectorizer
-│ └── scaler.pkl # Saved MinMaxScaler
-├── SentimentAnalysis.ipynb # Main notebook with all code
-├── README.md # This file
-└── LICENSE
 
 ---
 
